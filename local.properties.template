@@ -1,11 +1,10 @@
 # API Keys Configuration
-# Copy this to local.properties and fill in your keys
-# DO NOT COMMIT local.properties to Git!
+# Copy this to local.properties in each project folder
+# DO NOT COMMIT local.properties!
 
+# Google Maps API Key (for MapsApp, GPSLocation)
 google.maps.key=YOUR_GOOGLE_MAPS_API_KEY_HERE
-# firebase.app.id=your_firebase_app_id
-# firebase.api.key=your_firebase_api_key
 
-# Optional: Signing configuration
-# key.store.password=your_password
-# key.alias.password=your_password
+# Optional other keys
+# firebase.key=your_firebase_key
+# sms.api.key=your_sms_key

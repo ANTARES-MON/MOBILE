@@ -5,53 +5,35 @@ build/
 *.jar
 *.class
 
-# Android Studio/IntelliJ
+# Android Studio
 .idea/
 *.iml
 .gradle/
-local.properties
+local.properties  # THIS IS CRITICAL!
 
-# Keystores and sensitive keys - NEVER COMMIT!
+# Keystores
 *.keystore
 *.jks
 *.p12
-*.cert
-*.pfx
 
-# API Keys and configuration files
+# API keys
 google_maps_api.xml
 google-services.json
 *.firebaserc
-app/src/main/res/values/strings.xml  # If it contains real keys
 
-# Environment and secret files
+# Environment
 .env
-.env.*
 secrets.properties
-credentials.json
 
-# Operating system files
+# OS files
 .DS_Store
 Thumbs.db
-*.swp
-*.swo
 
-# Logs
-*.log
-logs/
-
-# Generated code
+# Generated files
 gen/
 out/
 bin/
 target/
-
-# Firebase
-google-services/
-
-# Captures
-captures/
-screenshots/
 
 # Gradle
 gradle-app.setting
@@ -60,3 +42,8 @@ gradle-app.setting
 *.module
 .externalNativeBuild/
 .cxx/
+
+# All build directories (where your keys are!)
+**/build/
+**/app/build/
+**/*/build/

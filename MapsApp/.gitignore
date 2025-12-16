@@ -1,0 +1,23 @@
+# SECRETS (NEVER COMMIT)
+local.properties
+*.keystore
+*.jks
+google-services.json
+google-services.json.enc
+*.key
+secrets.properties
+
+# BUILD & RELEASE
+app/keystores/
+app/release/
+app/debug/
+build/
+.gradle/
+
+# ANDROID STUDIO
+.idea/
+*.iml
+
+# OS FILES
+.DS_Store
+Thumbs.db

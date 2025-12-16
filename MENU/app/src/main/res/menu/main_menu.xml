@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_rechercher"
+        android:title="Rechercher"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_rafraichir"
+        android:title="Rafraichir"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_parametres"
+        android:title="Paramètres"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_aide"
+        android:title="Aide"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_apropos"
+        android:title="A Propos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_quitter"
+        android:title="Quitter"
+        app:showAsAction="never" />
+
+</menu>

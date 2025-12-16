@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popup_afficher"
+        android:title="Afficher"
+        android:icon="@android:drawable/ic_menu_edit" />
+
+    <item
+        android:id="@+id/popup_settings"
+        android:title="Settings"
+        android:icon="@android:drawable/ic_menu_save" />
+
+</menu>

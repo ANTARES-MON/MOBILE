@@ -1,0 +1,62 @@
+# Android build outputs
+build/
+*.apk
+*.aab
+*.jar
+*.class
+
+# Android Studio/IntelliJ
+.idea/
+*.iml
+.gradle/
+local.properties
+
+# Keystores and sensitive keys - NEVER COMMIT!
+*.keystore
+*.jks
+*.p12
+*.cert
+*.pfx
+
+# API Keys and configuration files
+google_maps_api.xml
+google-services.json
+*.firebaserc
+app/src/main/res/values/strings.xml  # If it contains real keys
+
+# Environment and secret files
+.env
+.env.*
+secrets.properties
+credentials.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Generated code
+gen/
+out/
+bin/
+target/
+
+# Firebase
+google-services/
+
+# Captures
+captures/
+screenshots/
+
+# Gradle
+gradle-app.setting
+
+# Module specific
+*.module
+.externalNativeBuild/
+.cxx/
